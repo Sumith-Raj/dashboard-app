@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+}
+
+
+.center {
+  font-size: calc(3px + 2vmin);
+  margin:10% 20%;
+}
+table,th,td {
+  text-align: center;
+  padding: 10px;
+  border:solid orange;
+
+  border-collapse: collapse;
+}
+table{
+  background-color:rgb(252, 250, 171);
+  box-shadow: 0 4px 8px 0 rgba(44, 108, 180, 0.527),
+    0 6px 20px 0 rgba(44, 108, 180, 0.267);
+}
+h3{
+  color: orangered;
+}
+.material-icons.edit { color: rgb(47, 162, 255); }
+.material-icons.delete { color: red; }
+.material-icons.submit { color: green; }
+.material-icons:hover {
+  outline: 1px solid tomato;
+}
+
